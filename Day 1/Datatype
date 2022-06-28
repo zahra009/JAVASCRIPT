@@ -1,0 +1,9 @@
+console.log(firstName);
+console.log (typeof firstName);
+
+console.log(happy);
+console.log(typeof happy);
+
+console.log(zahra);
+
+console.log(me);
