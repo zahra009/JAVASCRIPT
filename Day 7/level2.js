@@ -8,8 +8,15 @@ const sumOfEven =(num)
 // The number of odds are 50.
 // The number of evens are 51.
 
-// const evensAndOdds = (num) =>{
-    
+// const evensAndOdds = (positive) =>{
+    // let evens = 0
+    // let odds = 0
+    // for (let i = 0; i < array.length; i++) {
+    //     i % 2 == 0 ? evens++ : odd++
+        
+    // }
+    // console.log('The number of odds are /n The numbers of even are  {even}.')
+    // evensAndOdds(100)
 // }
 
 // const reverseArray = (arr) => {
