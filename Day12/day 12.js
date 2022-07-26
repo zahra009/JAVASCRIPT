@@ -1,11 +1,18 @@
 // Calculate the total annual income of the person from the following text. ‘He earns 4000 euro from salary per month, 10000 euro annual bonus, 5500 euro online courses per month.’
 
-// let salary = 4000;
-// let annualBonus = 10000;
-// let onlineCourses = 5500;
-// const pattern = /\d{4000}/g 
+// const pattern = /\d+/g
+//  const validatePattern = text.match(pattern)
+// const result = validatePattern.reduce((a, v, i, arr) a += i === 0 )
 
- const sentence = `%I $am@% a %tea@cher%, &and& \ lo%#ve %tea@ching%;. There $is nothing; &as& mo@re\ rewarding as educa@ting &and& @emp%o@wering peo@ple.;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?`
+
+
+// The position of some particles on the horizontal x-axis -12, -4, -3 and -1 in the negative direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers and find the distance between the two furthest particles.
+
+const pattern2 = /-\d+|\d+/g
+const validatePattern2 = text2.match(pattern2)
+const result = validatePattern2.reduce((a,v) => Number(v) > 0 ? a += Number(v) : 0, 0)
+
+ const sentence = `%I $am@% a %tea@cher%, &and& \ lo%#ve %tea@ching%;. There $is nothing; &as& mo@re\ rewarding as educa@ting &and& @emp%o@wering peo@ple.;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s9 mo@tivate yo@u to be a tea@cher!?`
 matches = sentence.replace(/%/g, '')
   console.log(matches)
 

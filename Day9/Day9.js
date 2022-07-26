@@ -137,3 +137,14 @@ let priceProducts = products.map((product) =>
     // precaution
     // const fact = (n) => n === 0 ? 1 : n* fact(n-1)
     // console.logfact()
+
+    // Find the sum of price of products using only reduce reduce(callback))
+
+    // console.log(arrProducts,reduce((acc, {product,price}) => {
+
+    //   if(typeof price === "number")
+    //   acc+=price  
+    //  return acc
+    // }, 0))
+
+    

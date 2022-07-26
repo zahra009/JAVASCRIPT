@@ -31,6 +31,7 @@ console.table(countries)
 // ]
 // console.table(countries)
 // Use console.group() to group logs
+// console.table(countries[0])
 
 const names = ['Asabeneh', 'Brook', 'David', 'John']
 const countries = [
