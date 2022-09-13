@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30DaysOfJavaScript: day26</title>
+</head>
+<body>
+    <div class="upper">
+ <header>
+     <h1>WORLD COUNTRIES LIST</h1>
+    <h3>Total Number of Countries: <span id="count"></span></h3>
+     <p></p>
+ </header>    
+ <center>
+    <button>STARTING WORD</button>
+    <button class="focus">SEARCH WITH ANY WORD</button>
+    <button class="sort">
+      <img class="arrow" src="./arrow-down-line.svg" alt="" />
+      <div class="up"><span>A</span> <span>Z</span></div>
+    </button>
+  </center>
+  <div class="search">
+    <input type="text" placeholder="Search country..." />
+    <img src="./search-line.svg" alt="" />
+  </div>
+</div>
+<div class="lower"></div>
+<script>
+  document.getElementById("button").onmouseover = function() 
+  {
+      this.style.backgroundColor = "red";
+  }
+  </script>
+  
+	<script src="./countries.mjs" type="module"></script>
+	<script src="./day26.js" type="module"></script
+</body>
+</html>
